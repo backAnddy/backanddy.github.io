@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "FiraCode";
+    src: url("../assets/fonts/FiraCode-Regular.woff") format("woff");
+}
+
+html, body, header, h1, section, p, img {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    font-family: "FiraCode";
+}
+body {
+    background-color: #1f1f1f;    
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;        
+    flex-direction: column; 
+}
+
+.title {
+    margin-top: 20px;
+    font-family: "FiraCode";
+    font-weight: bolder;
+    font-size: 3.5em;
+    text-align: center;
+    color: #dadada;    
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.msg {
+    color: #F9CA02;
+    font-size: 2em;
+    justify-self: center;    
+    justify-self: center;    
+}
+
+.icon {
+    margin: 20px;
+    width: 70vw;
+    height: 70vh;
+    justify-self: center;
+    align-self: center;
+}
