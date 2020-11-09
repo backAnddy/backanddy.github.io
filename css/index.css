@@ -3,13 +3,20 @@
     src: url("../assets/fonts/FiraCode-Regular.woff") format("woff");
 }
 
-html, body, header, h1, section, p, img {
+html, body, header, h1, section, p, img, footer, address, a, span {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     display: flex;
     font-family: "FiraCode";
+
 }
+
+a, a:link, a:visited a:hover, a:active a:focus {
+    text-decoration: none;  
+    color: inherit;  
+}
+
 body {
     background-color: #1f1f1f;    
     width: 100vw;
@@ -44,9 +51,29 @@ body {
 }
 
 .icon {
-    margin: 20px;
-    width: 70vw;
-    height: 70vh;
+    margin: 10px;
+    width: 50vw;
+    height: 50vh;
     justify-self: center;
     align-self: center;
+}
+
+.github, .linkedin, a {
+    width: 15vw;
+    height: 7vh;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 7vh;
+}
+
+.img-social {
+    width: 10vw;
+    height: 7vh;
+}
+
+.txt {
+    text-decoration: none;
+    width: 15vw;
+    height: 7vh;
 }
