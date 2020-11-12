@@ -3,7 +3,7 @@
     src: url("../assets/fonts/FiraCode-Regular.woff") format("woff");
 }
 
-html, body, header, h1, section, p, img, footer, address, a, span {
+html, body, header, h1, section, p, img, footer, address, a, div, span {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
