@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "FiraCode";
+    src: url("../assets/fonts/FiraCode-Regular.woff") format("woff");
+}
+
+:root {
+    --amarelo: #f9ca02;
+    --azul: #1365AD;
+    --ciano: #0F8CFA;
+    --roxo: #6613AD;
+    --lilas:#8E0FFA;
+    --bg: #1f1f1f;
+    --destaque: #dadada;
+}
+
+html, body, header, h1, h2, section, p, img, footer, address, a, div, span {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    font-family: "FiraCode";
+
+}
+
+a, a:link, a:visited a:hover, a:active a:focus {
+    text-decoration: none;  
+    color: inherit;  
+}
+
+address{
+    font-style: normal;
+}
+
+body {
+    background-color: #1f1f1f;    
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;        
+    flex-direction: column; 
+}
+
